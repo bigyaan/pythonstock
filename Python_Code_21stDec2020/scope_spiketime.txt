@@ -1,0 +1,12 @@
+The scope of the filter "spiketime" is:
+- Gives an half an hour time range where the average price is most high for the last 7 days
+
+-It gives a half hour time slot(eg:"9:30-10:00")
+
+-The the the output time slot is stored in the global variable config_spiketime "req_slot"
+
+-It gives the average spiking time slot of top N slots only
+
+-This script can run only after top N slots is selected,which means this can only work after the main program is ran and top N stock is selected
+
+-For cases where average is very for a day in that slot and is not much for any other day, the output of the script can be deceptive but since this rarely happens it is not taken into consideration.

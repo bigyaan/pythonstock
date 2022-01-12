@@ -1,0 +1,61 @@
+Task 9 :
+tickers with highest fluctuation in share price in  certain days range
+
+
+for each ticker:
+	input data download => calculate average => sortlist => csv 
+
+input data download:
+ UI:  fixed time slot(10 days 1 week  2 week)=> database
+ 	  custom time slot (user input)=> download
+
+  5 year=
+  {high: 200, low:180}
+
+output: ticker avg value 
+
+task 10(admin panel): 
+
+	check ticker everday in database => if delisted seperate it from the database 
+
+task 11:
+			9:00-9:30 10:00-10:30 10:30-11:00	
+	DATE
+	1        100      100           100  
+	2          20      30            40
+	3          50      50            70
+
+	top N stock(eg: AAPl, MSFT, TSLA)=> download inputdata 1m interval for 1 week => calculate average spike for each 30 min slot for each day for each ticker for 1 week=>
+
+	Output:
+			ticker timeslot
+			AAPL    9:00-9:30
+			MSFT    11:00-11:30  
+
+ Task 1:
+ 		input time slot=>input threshold percentage change=> Data input =>calculation=>
+ 		{high, low,closedatetime,open,high,low,close,volume,marketcap,52dayhigh,52daylow}
+
+ 		output=>csv
+ Task 2: remaining
+
+ Task 3: 15 minutes  
+
+ Task4: Open yahoo finance link for stock in csv(no discussion)
+ 
+ Task 5:
+    input list of ticker => calculation => display
+
+ Task 6=>
+ input data=> Calculate trend=>output
+  output:
+ analysis of stock having momentum to carry tomorrow 
+
+
+ Task 7=> Get the stocks that have decreased by more than n-m% in present time
+
+  inputdata designated (close price present day, time slot present day)=> calculation => display
+
+Task 8 =>
+
+

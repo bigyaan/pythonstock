@@ -1,0 +1,14 @@
+,value
+config_userinput.USER_INPUT_start_date,2021-05-27
+config_userinput.USER_INPUT_end_date,2021-11-23
+config_userinput.USER_INPUT_compute_percent_chance,y
+config_userinput.USER_INPUT_PERCENT_CHANCE_VALUE,0.05
+config_userinput.USER_INPUT_AVERAGE_NO_OF_DAYS_UP_THRESHOLD,1
+config_userinput.USER_INPUT_write_csv,y
+config_userinput.USER_INPUT_NO_OF_TOP_FILTERED_STOCKS,30
+config_userinput.USER_INPUT_open_browser,n
+config_userinput.USER_INPUT_print_info_for_top_n_stocks,y
+config_userinput.USER_INPUT_write_csv_with_conditions,n
+config_userinput.USER_INPUT_market_capital,0
+config_userinput.USER_INPUT_fiftyTwoWeeksHigh,0
+config_userinput.USER_INPUT_fiftyTwoWeeksLow,0
